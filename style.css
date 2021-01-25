@@ -1,0 +1,34 @@
+p {
+    font-size: 20px;
+    /* Use viewport to responsive typhography
+    vw: viewport width
+    vh: viewport height
+    vmin: viewport minimum
+    vmax: viewport maximum
+    */
+    width: 50vw;
+}
+
+img {
+    width: 200px;
+}
+
+/* Responsive Image */
+.Responsive-Image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* High Resolution Image Retina Image */
+.highResolutionImage {
+    /* the original size is 200px, it should be half of the original size */
+    height: 100px;
+    width: 100px;
+}
+
+/* Use Media Query: Responsize Resolution */
+@media (max-height: 800px) {
+    p {
+        font-size: 10px;
+    }
+}
